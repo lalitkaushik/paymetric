@@ -13,6 +13,7 @@
     "license": "MIT",
     "version": "2.1.2",
     "autoload": {
+	"psr-0": {"Paymetric\\": "lib/"},    
         "psr-4": {"Paymetric\\": "lib/"}
     },
     "require": {
