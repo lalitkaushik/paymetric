@@ -1,5 +1,5 @@
 {
-    "name": "paymetric/paymetrictokenize_php",
+    "name": "lalitkaushik/paymetric",
     "type": "library",
     "keywords": ["ime", "paymetric", "payment"],
 	"description": "PHP library for communicating with a paymetric server",
