@@ -1,0 +1,23 @@
+{
+    "name": "lalitkaushik/paymetric",
+    "type": "library",
+    "keywords": ["ime", "paymetric", "payment"],
+	"description": "PHP library for communicating with a paymetric server",
+    "authors": [
+	    {
+	      "name": "Paymetric",
+	      "homepage": "https://www.paymetric.com"
+	    }
+	],
+    "homepage": "https://www.paymetric.com",
+    "license": "MIT",
+    "version": "2.1.2",
+    "autoload": {
+	"psr-0": {"Paymetric\\": "lib/"},    
+        "psr-4": {"Paymetric\\": "lib/"}
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*"
+    }
+}
